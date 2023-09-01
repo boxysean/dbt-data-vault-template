@@ -1,7 +1,8 @@
 
 with source as (
 
-    select * from {{ source('salesforce', 'opportunities') }}
+    -- FIXED A TYPO HERE!!!
+    select * from {{ source('salesforce', 'opportunites') }}  
 
 ),
 
